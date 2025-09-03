@@ -12,4 +12,4 @@ echo "Running migrations..."
 php artisan migrate --force
 
 #echo "Publishing Livewire assets..."
-#php artisan livewire:publish --assets
+php artisan livewire:publish --assets
