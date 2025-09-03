@@ -7,14 +7,11 @@
 
     <title>{{ $title ?? 'Page Title' }}</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <!-- Livewire Styles -->
-    @livewireStyles
+
 </head>
 
 <body>
     {{ $slot }}
-    <!-- Livewire Scripts -->
-    @livewireScripts
 </body>
 
 </html>
